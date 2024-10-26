@@ -1,0 +1,174 @@
+.project .up{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-left: 70px;
+    width: 1226px;
+    margin-top: 94px;
+
+}
+.project .up h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    text-align: left;
+    margin-bottom: 8px;
+    color: rgba(12, 150, 226, 1);
+    
+}
+.project .up h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.375rem;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 362px;
+    color: var(--black2);
+    
+}
+.project .up h1 span{
+    color:  rgba(12, 150, 226, 1) ;
+}
+.project .up button{
+    width: 163.47px;
+    height: 50px;
+    top: 2596px;
+    left: 1132.53px;
+    background-color: rgba(12, 150, 226, 1) ;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    border: none;
+    color:rgba(255, 255, 255, 1) ;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.project .down {
+    width: Fixed (1,226px);
+    gap: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 56px;
+}
+.project .down .card{
+    width: Fixed (370px);
+}
+.project .down .card img{
+    border-radius: 8px;
+}
+.project .down .card .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.project .down .card .info {
+    margin-top: 32px;
+}
+.project .down .card .info p{
+    color: var(--black);
+}
+.project .down .card .info .des h2{
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 2.0625rem;
+    text-align: left;
+    color: var(--black);
+}
+.project .down .card .info .des p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+    
+}
+.project .down .card .info  a{
+    text-decoration: none;
+   
+}
+
+
+
+
+
+
+@media screen and (max-width:992px){
+    .project{
+        overflow-x: hidden;
+       
+        
+    }
+    .project .up{
+        margin-left: 6px;
+        width: 70vw;
+        margin-top: 94px;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        
+    }
+    .project .down{
+      width: 700px;
+      gap: 10px;
+      margin: 6px;  
+    }
+
+    
+}
+@media screen and (max-width:750px){
+    .project .down{
+        width: 470px;
+        margin-left: 6px;
+     
+       
+    }
+    .project .down .card img{
+        width: 90%;
+    }
+    .project .down .card .info{
+        justify-content: center;
+    }
+
+    
+}
+@media screen and (max-width:480px){
+    .project .down{
+        max-width: 470px;
+        margin-left: 6px;
+    }
+    .project .down .card img{
+        width: 80%;
+    }
+    .project .down .card .info{
+        justify-content: start;
+      
+    }
+    
+    .project .down .card .info .des p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5rem;
+        text-align: left;
+        
+    }
+    .project .down .card .icon {
+        margin-right: 55px;
+    }
+
+    
+}
+@media screen and (max-width:550px){
+    .project .up h1{
+        width: 100%;
+    }
+     
+}
+@media screen and (max-width:370px){
+    .project .down{
+        padding-right: 100px;
+    }
+
+    
+}

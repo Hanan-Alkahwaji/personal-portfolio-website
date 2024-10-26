@@ -1,0 +1,214 @@
+.contact .up{
+    margin-top: 94px;
+    margin-left: 70px;
+    margin-bottom: 56px;
+}
+.contact .up h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    text-align: left;
+    color: rgba(12, 150, 226, 1);
+
+}
+.contact .up h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.375rem;
+    text-align: left;
+    color: var(--black2);
+}
+.contact .up h1 span{
+    color:  rgba(12, 150, 226, 1);
+}
+.contact .down{
+    margin-left: 70px;
+  
+}
+.contact .down .container{
+    display: flex;
+    width: 1226px;
+    justify-content: space-between;
+}
+.contact .down .container .left{
+    width: 386.58px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact .down .container .left .card{
+    display: flex;
+    height:  104px;
+    background-color: var(--contact);
+    align-items: center;
+    gap: 19.88px;
+    box-shadow: 0px 30px 116px -16px rgba(211, 211, 211, 0.2);
+    border-radius: 8px;
+
+}
+.contact .down .container .left .card p:nth-child(1){
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    letter-spacing: 0.008em;
+    text-align: left;
+    color: rgba(146, 146, 157, 1);
+    margin-bottom: 16px;
+    
+}
+.contact .down .container .left .card p:nth-child(2){
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.125rem;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: var(--black);
+    
+}
+.contact .down .container .right{
+    width: 779.78px;
+}
+.contact .down .container .right form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+   
+}
+.contact .down .container .right input::placeholder{
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.008em;
+    color: rgba(146, 146, 157, 1);
+   padding-left: 26.5px;
+   
+    
+}
+.contact .down .container .right .Message::placeholder{
+    position: relative;
+    width: 77.32px;
+    height: 24px;
+   top: -46px;
+  
+
+}
+
+.contact .down .container .right .Fullname,.contact .down .container .right .Youremail{
+    width: 375.53px;
+    height: 56px;
+    top: 3650px;
+    left: 918.26px;
+    border-radius: 8px ;
+    border: 0.3px solid rgba(190, 192, 191, 1);
+    
+    
+}
+.contact .down .container .right .Phonenumber{
+    width: 777.78px;
+    height: 56px;
+    top: 3730px;
+    left: 516.22px;
+    border-radius: 8px ;
+    border: 0.3px solid rgba(190, 192, 191, 1) 
+}
+.contact .down .container .right .Message{
+    width: 779.78px;
+    height: 170px;
+    top: 3810px;
+    left: 516.22px;
+    border-radius: 8px ;
+    border: 0.3px solid rgba(190, 192, 191, 1);
+    
+    
+}
+.contact .down .container .right .send{
+    width: 200px;
+    height: 50px;
+    top: 4000px;
+    left: 516px;
+    background-color: rgba(12, 150, 226, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    
+    
+}
+
+@media screen and (max-width:992px){
+    .contact{
+        overflow-x: hidden;
+    }
+  
+    .contact .up , .contact .down{
+        margin-left: 6px;
+    }
+    .contact .down .container{
+        display: flex;
+        flex-direction: column;
+        width: 970px;
+        gap: 50px;
+        justify-content: space-between;
+    }
+    .contact .down .container .right{
+        max-width: max-content;
+    }
+    .contact .down .container .right form{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 24px;
+    }    
+    .contact .down .container .right .Phonenumber ,  .contact .down .container .right .Youremail  {
+      width: 75%;
+    }
+    .contact .down .container .right .Message{
+        width: 75%;  
+    }
+    .contact .down .container .right .Fullname{
+        width: 282px;
+    }
+
+    
+  .contact .down .container .left .card{
+    width: 70%
+  }
+  .contact .down .container .left .card:nth-child(2) p:nth-child(2){
+    font-size: 10.5px;
+  }
+  
+   body{
+    overflow-x: hidden;
+   }
+    
+}
+@media screen and (max-width:1300px){
+    .contact .up , .contact .down{
+        margin-left: 12px;
+    }
+    .contact .down .container .right{
+        width: 50%;
+        
+    }
+    .contact .down .container{
+        justify-content: center;
+        gap: 20px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .contact .right input{
+        width: 20px;
+
+    }
+    
+}

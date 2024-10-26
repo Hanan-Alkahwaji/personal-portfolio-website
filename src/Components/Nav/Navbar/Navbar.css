@@ -1,0 +1,96 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 40px;
+    width: 1226px;
+    color: var(--black);
+
+}
+nav .menu {
+    display: none;
+
+}
+nav ul{
+    display:flex ;
+    gap: 24px;
+    list-style: none;
+}
+nav h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+nav ul  a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size:1rem ;
+    line-height:1.5rem ;
+    cursor: pointer;
+}
+nav button,.navmenu button{
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+ .navmenu ul a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size:1rem ;
+    line-height:1.5rem ;
+    cursor: pointer;
+}
+.navmenu .up{
+    display: flex;
+    gap: 16px;
+}
+.navmenu{
+    background-color:rgba(128, 128, 128, 0.351);
+    padding: 6px;
+    width: max-content;
+    margin: auto;
+    border-radius: 5px;
+    transform: translateX(-580px);
+}
+.navmenu ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 20PX;
+    margin-top: 16PX;
+}
+nav ul a, .navmenu ul a{
+    color: var(--black);
+}
+
+nav ul a.active, .navmenu ul a.active{
+    color:rgba(12, 150, 226, 1);
+}
+
+.navmenu.show{
+    transform: translateX(-50px);
+    transition: 1s all ;
+}
+.navmenu{
+    display: none;
+}
+.navmenu h1{
+    color: #ffff;
+}
+
+@media screen  and (max-width:992px){
+    nav h1 , nav ul , nav button:nth-child(3){
+     display: none;
+       
+    }
+    nav{
+        width: max-content;
+    }
+    nav .menu ,.navmenu{
+        display: block;
+
+    }
+
+    
+}

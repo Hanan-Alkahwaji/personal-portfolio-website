@@ -1,0 +1,250 @@
+.about .container{
+    display: flex;
+    margin-left: 70px;
+    width: 1226px;
+    margin-top: 70px;
+    justify-content: space-between;
+    
+}
+.about .container .right .up h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.75rem;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color:var(--black);
+    margin-bottom: 12.6px;
+    
+}
+.about .container .right .up  p{
+    width: 598.7px;
+    height: 84.44px;
+    font-size:1.125rem ;
+    font-weight: 400;
+    line-height:1.75rem ;
+    color: var(--black);
+    letter-spacing: 0.03em;
+}
+.about .container .right{
+    display: flex;
+    flex-direction: column;
+}
+.about  .container .right .down .skillBar .info{
+   width: 587.07px;
+   display: flex;
+   position: relative;
+}
+.about  .container .right .down .skillBar .info p:nth-child(1){
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: var(--black);
+}
+.about .container .right .down .skillBar .info p:nth-child(2){
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(12, 150, 226, 1) ;
+    width:33px;
+    height: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;;
+    font-size: 10px;
+    line-height: 12.1px;
+    padding: 4px 6px 4px 6px;
+    margin-top: 50px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+}
+.about .container .right .down .skillBar .info p:nth-child(2)::after{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-left: -6px;
+    margin-top: -6px;
+    transform: rotate(45deg);
+    top: 100%;
+    left: 50%;
+    background-color:rgba(12, 150, 226, 1);
+    content: '';
+    border-radius: 1px;
+    z-index: -1;
+}
+
+.about .container .right .down .skillBar .bar{
+    width: 587.07px;
+    height: 11.06px;
+    background-color: rgba(237, 236, 236, 1);
+    border-radius: 6px;
+    margin-top: 10px;
+    position: relative;
+
+}
+.about .container .right .down .skillBar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(12, 150, 226, 1);
+    border-radius: 6px;
+    
+}
+.about .container .right .down .skillBar .bar span.HTML{
+    width: 90%;
+}
+.about .container .right .down .skillBar .bar span.HTML::after,.about .container .right .down .skillBar .bar span.JavaScript::after,.about .container .right .down .skillBar .bar span.CSS3::after,.about .container .right .down .skillBar .bar span.React::after{
+    content: '';
+    width: 25px; 
+    height: 25px;
+    background-color: rgba(237, 236, 236, 1);
+    border: 3px solid rgba(12, 150, 226, 1);
+    position: absolute;
+    border-radius: 50%;
+    left: 520px;
+    top: -8px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.2);
+   
+
+}
+.about .container .right .down .skillBar .bar span.CSS3{
+    width: 85%;
+} 
+.about .container .right .down .skillBar .bar span.CSS3::after{
+    left: 495px;
+}
+.about .container .right .down .skillBar .bar span.JavaScript{
+    width: 95%;
+}
+.about .container .right .down .skillBar .bar span.JavaScript::after{
+    left: 540px;
+
+}
+.about .container .right .down .skillBar .bar span.React{
+    width: 80%;
+}
+.about .container .right .down .skillBar .bar span.React::after{
+    left: 460px;
+}
+
+.about .container .right .down .skillBar .info p:nth-child(2).HTML{
+    position: absolute;
+    left: 520px;
+}
+.about .container .right .down .skillBar .info p:nth-child(2).CSS3{
+    position: absolute;
+    left: 495px;
+}
+.about .container .right .down .skillBar .info p:nth-child(2).JavaScript{
+    position: absolute;
+    left: 540px;
+}
+.about .container .right .down .skillBar .info p:nth-child(2).React{
+    position: absolute;
+    left: 460px;
+}
+
+
+@media screen and (max-width:992px) {
+    .about .container{
+        flex-direction: column-reverse;
+        gap: 50px;
+        margin-left: 6px;
+    }
+    .about{
+        overflow-x: hidden;
+    }
+    .about .container{
+        width: 400px;
+    }
+    .about .container .left img{
+        margin-top: 6px;
+   }
+   .about .container .left{
+     margin-left: 10%;
+      margin-top: 22px;
+   }
+  
+
+  
+}
+@media screen and (max-width:650px){
+   
+  
+    .about .container .right .down .skillBar .bar{
+        width: 350.07px;
+    }
+    .about .container .right .down .skillBar .info p:nth-child(2).HTML{
+        position: absolute;
+        left: 300px;
+    }
+    .about .container .right .down .skillBar .info p:nth-child(2).CSS3{
+        position: absolute;
+        left: 280px;
+    }
+    .about .container .right .down .skillBar .info p:nth-child(2).JavaScript{
+        position: absolute;
+        left: 310px;
+    }
+    .about .container .right .down .skillBar .info p:nth-child(2).React{
+        position: absolute;
+        left: 260px;
+    }
+    .about .container .right .down .skillBar .bar span.HTML::after,.about .container .right .down .skillBar .bar span.CSS3::after{
+     
+        left: 290px;
+    }
+    .about .container .right .down .skillBar .bar span.React::after{
+        left: 273px;
+    }
+    .about .container .right .down .skillBar .bar span.JavaScript::after{
+        left: 310px;
+    }
+
+   .about .container .right ,.about .container .right .up, .about .container .left img{
+     width: 100%;
+   }
+
+   .about .container .right p:nth-child(2){
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  
+
+}
+@media screen and (max-width:400px){
+    .about .container .right p:nth-child(2){
+        width: 70%;
+        margin-bottom: 135px;
+      }
+    .about .container .right .down .skillBar .bar{
+        width: 260.07px;
+    }
+    .about .container .right .down .skillBar .info p:nth-child(2).HTML{
+        left: 220px;
+    }
+    .about .container .right .down .skillBar .info p:nth-child(2).CSS3{
+        left: 200px;
+    }
+    .about .container .right .down .skillBar .info p:nth-child(2).JavaScript{
+        left: 230px;
+    }
+    .about .container .right .down .skillBar .info p:nth-child(2).React{
+        position: absolute;
+        left: 190px;
+    }
+    .about .container .right .down .skillBar .bar span.HTML::after,.about .container .right .down .skillBar .bar span.CSS3::after{
+        width: 20px;  height: 20px;
+        left: 209px;
+    }
+    .about .container .right .down .skillBar .bar span.React::after{
+        left: 203px;  width: 20px;  height: 20px;
+    }
+    .about .container .right .down .skillBar .bar span.JavaScript::after{
+        left: 222px;  width: 20px;  height: 20px;
+    }
+    .about .container .left{
+        margin-right: 130px;
+    }
+   
+
+    
+}

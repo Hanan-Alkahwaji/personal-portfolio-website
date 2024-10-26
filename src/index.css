@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+:root{
+ 
+  --MainColor:#0C96E2;
+  --black:rgba(29, 33, 48, 1);
+  --black2:rgba(40, 41, 56, 1);
+  --colorp:rgba(67, 73, 91, 1);
+  --education1:rgba(52, 64, 84, 1);
+  --contact:rgba(255, 255, 255, 1);
+}
+.dark{
+  --black:rgba(255, 255, 255, 1);
+  --black2:rgba(255, 255, 255, 1);
+  background-color: rgb(27, 36, 49);
+  --MainColor:#0C96E2;
+  --colorp:rgba(255, 255, 255, 1);
+  --education1:rgba(255, 255, 255, 1);
+  --contact:rgba(27,36,49)
+
+ 
+
+}
