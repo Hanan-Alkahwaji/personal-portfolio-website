@@ -56,8 +56,8 @@ export default   function Details() {
                     <h1>The Best <span>Projects</span> </h1>
                 </div>
                 <div className="arrows">
-                    <div className="larrow"><button id='prevBtn'><img src="./../../../public/assets/imgs/la.png" alt="" /></button></div>
-                    <div className="rarrow"><button id='nextBtn'><img src="./../../../public/assets/imgs/ra.png" alt="" /></button></div>
+                    <div className="larrow"><button id='prevBtn'><img src="/personal-portfolio-website/assets/imgs/la.png" alt="" /></button></div>
+                    <div className="rarrow"><button id='nextBtn'><img src="/personal-portfolio-website/assets/imgs/ra.png" alt="" /></button></div>
                 </div>
             </div>
             <div className="slider">

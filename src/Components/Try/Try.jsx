@@ -15,7 +15,7 @@ export default function Try() {
             </div>
             <div className="right">
               <Link to={"/Contact"}>
-              <button >Contact <img src="./../../../public/assets/imgs/Frame (1).png" alt="" /></button>
+              <button >Contact <img src="/personal-portfolio-website/assets/imgs/Frame (1).png" alt="" /></button>
               
               </Link>
               

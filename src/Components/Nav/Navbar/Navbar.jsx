@@ -12,16 +12,16 @@ export default function Navbar({name,navitems,but}) {
         if (document.body.classList.contains("dark")) {
             let icon=document.getElementById("icon");
             let skill=document.getElementById("skill");
-            icon.src='./../../../../public/assets/imgs/Sun_fill.png'
-            skill.src='./../../../../public/assets/imgs/skilldark.png'
+            icon.src='/personal-portfolio-website/assets/imgs/Sun_fill.png'
+            skill.src='/personal-portfolio-website/assets/imgs/skilldark.png'
  
          
         }
         else{
             let icon=document.getElementById("icon");
             let skill=document.getElementById("skill");
-            icon.src="./../../../../public/assets/imgs/moon.png"
-            skill.src="./../../../../public/assets/imgs/hcjr.png"
+            icon.src="/personal-portfolio-website/assets/imgs/moon.png"
+            skill.src="/personal-portfolio-website/assets/imgs/hcjr.png"
 
         }
        
@@ -57,8 +57,8 @@ export default function Navbar({name,navitems,but}) {
            
 
         </ul>
-        <button onClick={darkmode}><img src="./../../../../public/assets/imgs/moon.png" alt="" id='icon' /></button>
-        <button className='menu' onClick={navmenu}><img src="./../../../../public/assets/imgs/Menu_Alt_01.png" alt="" /></button>
+        <button onClick={darkmode}><img src="/personal-portfolio-website/assets/imgs/moon.png" alt="" id='icon' /></button>
+        <button className='menu' onClick={navmenu}><img src="/personal-portfolio-website/assets/imgs/Menu_Alt_01.png" alt="" /></button>
 
         
        
@@ -69,7 +69,7 @@ export default function Navbar({name,navitems,but}) {
     <section className='navmenu'>
         <div className="up">
         <h1>{name}</h1>
-        <button onClick={darkmode}><img src="./../../../../public/assets/imgs/moon.png" alt="" id='icon' /></button>
+        <button onClick={darkmode}><img src="/personal-portfolio-website/assets/imgs/moon.png" alt="" id='icon' /></button>
 
         </div>
     

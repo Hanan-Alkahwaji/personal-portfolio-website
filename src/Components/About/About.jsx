@@ -6,7 +6,7 @@ export default function About({skill}) {
     <section  className='about'>
       <div className="container">
         <div className="left">
-          <img src="./../../../public/assets/imgs/hcjr.png" alt="" id='skill'/>
+          <img src="/personal-portfolio-website/assets/imgs/hcjr.png" alt="" id='skill'/>
         </div>
         <div className="right">
           <div className="up">

@@ -11,7 +11,7 @@ export default function Home() {
     Frontend Developer</h1>
     <p>Agency-quality Webflow websites with the personal touch of a freelancer.
     </p>
-    <a href='./../../../public/assets/imgs/pdf/cv.pdf' download="CV" > <button>Download Cv  </button> </a>
+    <a href='/personal-portfolio-website/assets/imgs/pdf/cv.pdf' download="CV" > <button>Download Cv  </button> </a>
    
 
     </div>

@@ -46,7 +46,7 @@ export default function Education() {
       <div className="square"></div>
       <div className="circle2"></div>
     </div>
-    <button onClick={totop}><img src="./../../../public/assets/imgs/Arrow_Up_MD.png" alt="" /></button>
+    <button onClick={totop}><img src="/personal-portfolio-website/assets/imgs/Arrow_Up_MD.png" alt="" /></button>
 
       </div>
     

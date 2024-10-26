@@ -54,7 +54,7 @@ export default function Projects({cards}) {
                 
                 <div className="icon">
                 
-                  <img src="./../../../public/assets/imgs/Iconarrow.png" alt="" />
+                  <img src="/personal-portfolio-website/assets/imgs/Iconarrow.png" alt="" />
                
 
           

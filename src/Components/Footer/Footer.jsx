@@ -8,9 +8,9 @@ export default function Footer() {
         <p>@ 2024. All Rights Reserved</p>
         <p>Develpoment by Lorina</p>
         <div className="icons">
-          <Link to={"https://www.facebook.com/hanan.alkahwaji.33?mibextid=kFxxJD"}><img src="./../../../public/assets/imgs/facebook.png" alt="" /></Link>
-            <Link to={"https://www.linkedin.com/in/hanan-alkahwaji-428a6a256/"}><img src="./../../../public/assets/imgs/linkedin.png" alt="" /></Link>
-            <Link to={"https://www.instagram.com/hanan.alkahwaji?utm_source=qr&igsh=MzNlNGNkZWQ4Mg%3D%3D"}><img src="./../../../public/assets/imgs/instagram.png" alt="" /></Link>
+          <Link to={"https://www.facebook.com/hanan.alkahwaji.33?mibextid=kFxxJD"}><img src="/personal-portfolio-website/assets/imgs/facebook.png" alt="" /></Link>
+            <Link to={"https://www.linkedin.com/in/hanan-alkahwaji-428a6a256/"}><img src="/personal-portfolio-website/assets/imgs/linkedin.png" alt="" /></Link>
+            <Link to={"https://www.instagram.com/hanan.alkahwaji?utm_source=qr&igsh=MzNlNGNkZWQ4Mg%3D%3D"}><img src="/personal-portfolio-website/assets/imgs/instagram.png" alt="" /></Link>
            
 
         </div>
